@@ -1,0 +1,37 @@
+{
+"student_id" : 010101,
+"first_name" : "Susan",
+"last_name" : "Smith",
+"enrollment" : [
+	{"term" : "SPR2020",
+	"gpa" : 3.0,
+	"start_date" : 01/13/2020,
+	"end_date" : 05/15/2020,
+	"course" : [
+		{"course_id" : "BIOL1301",
+		"description" : "Introductory Biology",
+		"instructor" : "Dr. Fungus",
+		"grade" : 3.0},
+		{"course_id" : "MATH1301"
+		"description" : "Introductory Math"
+		"instructor" : "Prof Cosin"
+		"grade" : 3.0}
+		]
+	},
+	{"term" : "FAL2020",
+	"gpa" : 3.0,
+	"start_date" : 09/07/2020,
+	"end_date" : 12/14/2020,
+	"course" : [
+		{"course_id" : "ENGL1301",
+		"description" : "Introductory English",
+		"instructor" : "W. Shakes",
+		"grade" : 4.0},
+		{"course_id" : "SPCH"
+		"description" : "Introductory Speech"
+		"instructor" : "Dr Speaker"
+		"grade" : 2.0}
+		]
+	}
+}
+	

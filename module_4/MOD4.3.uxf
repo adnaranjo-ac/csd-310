@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>20</y>
+      <w>170</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Student
+--
+student_id
+first_name
+last_name
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>180</x>
+      <y>50</y>
+      <w>190</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>m1=1.1
+m2=1.*</panel_attributes>
+    <additional_attributes>10.0;10.0;170.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>350</x>
+      <y>20</y>
+      <w>170</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Enrollment
+--
+term
+gpa
+start_date
+end_date
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>680</x>
+      <y>20</y>
+      <w>170</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Course
+--
+course_id
+description
+instructor
+grade
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>510</x>
+      <y>60</y>
+      <w>190</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>m1=1.1
+m2=1.*</panel_attributes>
+    <additional_attributes>10.0;10.0;170.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>350</x>
+      <y>210</y>
+      <w>170</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Enrollment
+--
+{
+"term" : "SPR2020"
+"gpa" : 3.0
+"start_date" : 01/13/2020
+"end_date" : 05/15/2020
+}
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>210</y>
+      <w>170</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Student
+--
+{
+"student_id" : 010101
+"first_name" : "Susan"
+"last_name" : "Smith"
+}
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>180</x>
+      <y>250</y>
+      <w>190</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>m1=1.1
+m2=1.*</panel_attributes>
+    <additional_attributes>10.0;10.0;170.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>680</x>
+      <y>210</y>
+      <w>170</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Course
+--
+{
+"course_id" : "BIOL1301"
+"description" : "Introductory Biology"
+"instructor" : "Dr. Fungus"
+"grade" : 3.0
+}
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>510</x>
+      <y>270</y>
+      <w>190</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>m1=1.1
+m2=1.*</panel_attributes>
+    <additional_attributes>10.0;10.0;170.0;10.0</additional_attributes>
+  </element>
+</diagram>

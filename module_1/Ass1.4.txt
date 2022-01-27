@@ -1,0 +1,46 @@
+User has many roles
+
+{
+    "user_id": 0001,
+    "first_name": "Bob",
+    "last_name": "Smith",
+    "roles": [
+        {
+            "task": "custodial",
+            "department": "warehouse"
+        },
+        {
+            "task": "management",
+            "department": "janitorial"
+        }
+    ]
+}
+
+
+User has one birthdate
+
+{
+    "first_name": "Bob",
+    "last_name": "Smith",
+    "birthdate": "January 2, 1980"
+}
+
+
+User has many dependants
+
+{
+    "first_name": "Bob",
+    "last_name": "Smith",
+    "dependants": [
+        {
+            "dep_first": "Sue",
+            "dep_last": "Smith",
+            "dep_birthdate": "February 15, 2005"
+        },
+        {
+            "dep_first": "John",
+            "dep_last": "Smith",
+            "dep_birthdate": "April 20, 2010"
+        }
+    ]
+}

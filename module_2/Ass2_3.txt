@@ -1,0 +1,37 @@
+{
+"student_id": 06254,
+"first_name": "Sue",
+"last_name": "Smith",
+"enrollments":[
+    {"term": "Spring 20",
+     "gpa": 3.0,
+     "start_date": 01/19/2020,
+     "end_date": 04/26/2020,
+     "course": [
+         {"course_id": "MATH_1001",
+          "description": "Beginner Algebra",
+          "instructor": "Thomas",
+          "grade": B},
+         {"course_id": "ENGL_1001",
+          "description": "English Literature",
+          "instructor": "Adams",
+          "grade": B}
+     ]
+    },
+    {"term": "Fall 21",
+     "gpa": 3.2,
+     "start_date": 01/19/2020,
+     "end_date": 04/26/2020,
+     "course": [
+         {"course_id": "CHEM_1001",
+          "description": "Beginner Chemistry",
+          "instructor": "Bradley",
+          "grade": B},
+         {"course_id": "SPCH_1002",
+          "description": "Public Speaking",
+          "instructor": "McKenzie",
+          "grade": A}
+     ]
+    }
+ ]
+}
